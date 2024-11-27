@@ -4,12 +4,28 @@
     padding: 0;
 }
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
 header {
     background-color: lightgray;
+    
+}
+
+.nav {
+    height: 100px;
+    padding: 10px;
 }
 
 main {
     background-color: grey;
+    flex-grow: 1;
+    padding: 10px;
 }
 
 footer {
